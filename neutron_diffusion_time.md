@@ -50,6 +50,24 @@ The cross section, like the expected neutron velocity, is something you'll need 
 
 And so.  A solution.
 ================
+What are we trying to figure out?
 
+We'd like to get the time $t_L$ that it's reasonable to start seeing a neutron at a distance $L$ away from its origin.
+
+But to make this an answerable question, we must be more specific: the neutron is travelling at some velocity $v_n$, and it is travelling in lead.
+
+Ah, there we are.  What is the time $t_L$ that we expect to see a neutron with velocity $v_n$ travelling in lead a distance $L$ from its origin?  What is the time $t_L$ such that
+$$ L = \sqrt{N_{bounces}} \lambda_{Pb}?$$
+
+Substituting from above, 
+$$ 
+L = \sqrt{t_L \rho_{Pb} \sigma_{Pb}(v_n) v_n} \lambda_{Pb} 
+\implies 
+t_L = \frac{L^2 / \lambda_{Pb}^2}{\rho_{Pb} \sigma_{Pb}(v_n) v_n}.
+$$
+
+One can of course simplify this expression further, but I like this form for two reasons.
+-- $L$ is "normalized" to units of $\lambda_{Pb}$.
+-- The $\sigma v$ in the denominator offers a clue to the knowledgeable reader - at low energies, the cross section scales inversely with the velocity.  If your neutron is in that energy region, this term is ... constant.
 
 > Written with [StackEdit](https://stackedit.io/).
