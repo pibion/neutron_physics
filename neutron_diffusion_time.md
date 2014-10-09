@@ -35,9 +35,16 @@ In time $t$, the number of bounces can be written $t \ t_{Pb}$, and
 $$N_{bounces} = \frac{t}{t_{Pb}} = t \frac{v_n}{\lambda_{Pb}}.$$
 
 
-What is $\lambda_{Pb}$?
-=====================
+What is $\lambda_{Pb}$?  What is $v_n$?
+==================================
+What is $v_n$?  I don't know.  You'll have to go look that up.
 
+Taking some liberties, the characteristic path length $\lambda_n$ of a neutron in lead can be written
+$$\lambda_{Pb} = \frac{1}{\rho_{Pb} \sigma_{Pb}(v_n)}.$$
+
+The cross section, $\sigma_{Pb}$, should actually be marked as the _scattering_ cross section.  The total cross section can be written as the scattering plus the absorption cross section; we've been talking about the neutron "bouncing around" - that's the scattering cross section.  What we're assuming when we write the average path length this way is that the absorption cross section is much smaller than the scattering cross section.
+
+Also note that the cross section isn't a constant!  It changes as the neutron's energy changes.
 
 And so.  A solution.
 ================
