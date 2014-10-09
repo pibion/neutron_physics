@@ -25,7 +25,14 @@ This leaves us with two questions to answer for a solution.
 
 Neutron Bounces 
 ==============
+Over some time $t$, the neutron travels from lead nucleus to lead nucleus, changing direction with each collision.  
 
+Now imagine the neutron's path between two of these nuclei.  This path length is drawn from a distribution about the average path length, and this average path length is what we call $\lambda_{Pb}$.  
+
+For a neutron travelling at some (unchanging) velocity $v_n$, the average path length implies some average time: $t_{Pb} = \lambda_{Pb} / v_n$.  So the neutron's journey can be broken up into a series of pieces that have some characteristic distance, or alternatively, a series of pieces that take some characteristic time.
+
+In time $t$, the number of bounces can be written $t \ t_{Pb}$, and
+$$N_{bounces} = \frac{t}{t_{Pb}} = t \frac{v_n}{\lambda_{Pb}}.$$
 
 
 What is $\lambda_{Pb}$?
