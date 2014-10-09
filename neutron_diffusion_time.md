@@ -50,13 +50,9 @@ The cross section, like the expected neutron velocity, is something you'll need 
 
 And so.  A solution.
 ================
-What are we trying to figure out?
+Ah, there we are. Imagine a stack of lead bricks in your laboratory. If a neutron is sprung free from its nucleus at a depth L from the surface of that lead, after what time $t_L$ can we expect it to emerge?  
 
-We'd like to get the time $t_L$ that it's reasonable to start seeing a neutron at a distance $L$ away from its origin.
-
-But to make this an answerable question, we must be more specific: the neutron is travelling at some velocity $v_n$, and it is travelling in lead.
-
-Ah, there we are.  What is the time $t_L$ that we expect to see a neutron with velocity $v_n$ travelling in lead a distance $L$ from its origin?  What is the time $t_L$ such that
+Idealizing the neutron's motion and Poisson statistics allow us to reduce this question to: what is the time $t_L$ such that
 $$ L = \sqrt{N_{bounces}} \lambda_{Pb}?$$
 
 Substituting from above, 
