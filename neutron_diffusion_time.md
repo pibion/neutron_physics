@@ -46,6 +46,8 @@ The cross section, $\sigma_{Pb}$, should actually be marked as the _scattering_ 
 
 Also note that the cross section isn't a constant!  It changes as the neutron's energy changes.
 
+The cross section, like the expected neutron velocity, is something you'll need to look up.
+
 And so.  A solution.
 ================
 
