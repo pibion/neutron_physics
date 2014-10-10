@@ -64,7 +64,7 @@ $$
 
 One can of course simplify this expression further, but I like this form for two reasons.
 -- $L$ is "normalized" to units of $\lambda_{Pb}$.
--- The $\sigma v$ in the denominator offers a clue to the knowledgeable reader - at low energies, the cross section scales inversely with the velocity.  If your neutron is in that energy region, this term is ... constant.
+-- The $\sigma v$ in the denominator offers a clue to the knowledgeable reader - at low energies, the cross section scales inversely with the velocity.  If your neutron is in that energy region, this term is constant.
 
 
 Numbers for Neutrons
