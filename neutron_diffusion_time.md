@@ -67,11 +67,16 @@ One can of course simplify this expression further, but I like this form for two
 -- The $\sigma v$ in the denominator offers a clue to the knowledgeable reader - at low energies, the cross section scales inversely with the velocity.  If your neutron is in that energy region, this term is ... constant.
 
 
+Numbers for Neutrons
+==================
+Muons at the Soudan lab (depth of 1950 m.w.e.) have an average energy of approximately 200 MeV [Mei & Heim].
+
+There's general agreement that the neutron energy spectrum falls exponentially and depends on the muon energy spectrum.  Mei and Heim report an average energy of 76 MeV for muon-induced neutrons at Soudan.  This corresponds to an average velocity of ?? for the neutrons.
+
 Numbers for Lead
 ===============
 
 
-Numbers for Neutrons
-==================
+
 
 > Written with [StackEdit](https://stackedit.io/).
