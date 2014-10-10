@@ -71,12 +71,16 @@ Numbers for Neutrons
 ==================
 Muons at the Soudan lab (depth of 1950 m.w.e.) have an average energy of approximately 200 MeV [Mei & Heim].
 
-There's general agreement that the neutron energy spectrum falls exponentially and depends on the muon energy spectrum.  Mei and Heim report an average energy of 76 MeV for muon-induced neutrons at Soudan.  This corresponds to an average velocity of ?? for the neutrons.
+There's general agreement that the neutron energy spectrum falls exponentially and depends on the muon energy spectrum.  Mei and Heim report an average energy of 76 MeV for muon-induced neutrons at Soudan.  Without accounting for relativity, this corresponds to an average velocity of 1.2 *10^6 cm/s for the neutrons.
+
+Let's also consider a 10 MeV neutron, with speed 0.4*10^6 cm/s.
 
 Numbers for Lead
 ===============
 
+The density of lead is 11.4 g/cc, or 1.4*10^27 nuclei/cc.
 
+Even at 10 MeV, we're well out of the region where the cross section scales with the inverse of velocity.  Looking at http://wwwndc.jaea.go.jp/jendl/j40/j40.html, the elastic-scattering cross section is rougly 4 barns.  The plot here doesn't go past 20 MeV, and since I'm lazy and just want an approximation, I'll assume 4 barns for a 76 GeV neutron as well (this is unlikely to be accurate!).
 
 
 > Written with [StackEdit](https://stackedit.io/).
